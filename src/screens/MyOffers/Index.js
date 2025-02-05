@@ -1,11 +1,13 @@
 import { StyleSheet, Text, View,TouchableOpacity,Image} from 'react-native'
 import React from 'react'
 import Styles from '../MyOffers/Style'
+import { useNavigation } from '@react-navigation/native'
 
 const MyOffers = () => {
+  const navigation=useNavigation()
   return (
     <View>      
-             <TouchableOpacity >
+             <TouchableOpacity onPress={navigation.goBack}>
                 <Image style={Styles.ArrowStyle} source={require('../../images/leftarrow.png')} />
                 </TouchableOpacity> 
                 <View>

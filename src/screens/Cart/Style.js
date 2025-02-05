@@ -86,6 +86,7 @@ const Styles = StyleSheet.create({
         marginTop:'15%',
         flexDirection:'row',
         marginRight:'3%',
+        justifyContent:'space-around'
         
     },
     LikeStyle:{
@@ -93,7 +94,7 @@ const Styles = StyleSheet.create({
         borderRadius:30,
         width:45,
         height:45,
-        right:6
+        right:10
 
     },
     Dustbean:{
@@ -101,6 +102,7 @@ const Styles = StyleSheet.create({
         borderRadius:30,
         width:45,
         height:45,
+        right:8
     
 
     },

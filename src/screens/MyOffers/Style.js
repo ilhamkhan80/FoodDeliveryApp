@@ -7,7 +7,7 @@ const Styles = StyleSheet.create({
     ArrowStyle: {
         width: 24,
         height: 24,
-        marginLeft: '10%',
+        marginLeft: '8.5%',
         marginTop:'13%'
 
     },

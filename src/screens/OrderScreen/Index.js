@@ -28,7 +28,7 @@ const OrderScreen = () => {
                     </Text>
                 </View>
             </View>
-            <CustomButton tittle='Start odering' customStyle={Styles.ButtonStyle} />
+            <CustomButton tittle='Start odering' customStyle={Styles.ButtonStyle} onPress={()=>navigation.navigate("ItemsScreen")}/>
         </View>
     )
 }
